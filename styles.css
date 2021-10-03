@@ -1,0 +1,100 @@
+body{
+    background: #ffffff;
+    color: #000000;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'avenir';
+    transition-property: color;
+    transition-duration: 0.5s;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+
+
+  ul.nav{
+    padding-left: 0px;
+    text-align: center;
+    color:
+  }
+
+  ul.nav > li{
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  a{
+    color: #000000;
+    font-family: 'avenir';
+    font-size: 30px;
+    transition-property: color;
+    transition-duration: 0.5s;
+  }
+  
+  /* paragraph */
+  p{
+    font-size: 50px;
+    font-family: 'avenir';
+    text-align: center;
+    transition-property: color;
+    transition-duration: 0.5s;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+  
+  h1:hover{
+    color: rgba(91, 85, 181);
+  }
+  
+  /* remove underline */
+  a:link {
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgba(91, 85, 181);
+  }
+  
+  .footer{
+    text-align: center;
+    padding: 3px;
+    background-color:  rgba(91, 85, 181);
+    color: #ffffff;
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  
+  .row1 {
+    display: flex;
+  }
+
+  .row2 {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+  #box-1 {
+    color:#ffffff;
+    width: 100%;
+    height: 200px;
+  }
